@@ -2,3 +2,5 @@
 env
 .env
 Documentportal.egg-info
+torch_cpu.dll
+dnnl.lib

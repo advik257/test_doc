@@ -4,3 +4,4 @@ env
 Documentportal.egg-info
 torch_cpu.dll
 dnnl.lib
+ Lib/site-packages

@@ -1,7 +1,8 @@
 # Created by venv; see https://docs.python.org/3/library/venv.html
 env
 .env
-Documentportal.egg-info
-torch_cpu.dll
-dnnl.lib
- Lib/site-packages
+/Documentportal.egg-info
+/torch_cpu.dll
+/dnnl.lib
+/Lib/site-packages
+/Lib/site-packages/torch/lib

@@ -1,23 +1,12 @@
 # Virtual Environment
-Lib/
-Include/
-Scripts/
-pyvenv.cfg
+/Lib/
+/Include/
+/Scripts/
+/pyvenv.cfg
 *.pyc
 __pycache__/
-
-# Environment files
 .env
 .venv
 env/
 venv/
 ENV/
-
-# Created by venv; see https://docs.python.org/3/library/venv.html
-/Documentportal.egg-info
-/torch_cpu.dll
-/dnnl.lib
-/Lib/site-packages
-/Lib/site-packages/torch/lib/
-logs/
-test.py

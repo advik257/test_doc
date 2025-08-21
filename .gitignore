@@ -2,7 +2,12 @@
 env
 .env
 /Documentportal.egg-info
+venv/
+__pycache__/
+*.pyc
 /torch_cpu.dll
 /dnnl.lib
 /Lib/site-packages
 /Lib/site-packages/torch/lib
+logs/
+test.py

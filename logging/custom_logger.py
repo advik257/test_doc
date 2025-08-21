@@ -12,12 +12,11 @@ class CustomLogger:
         # Format: year-month-day_hour-minute-second.log
         Log_FILE =f"{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.log"
         Log_FILE = os.path.join(log_dir, Log_FILE)
-
-        # configure the logging
+        # configure the logging++++++
         logging.basicConfig(
             filename=Log_FILE,
             format='[ %(asctime)s ]- %(levelname)s  %(name)s (line :%(lineno)d)- %(message)s',
-            level=logging.INFO,
+            level=logging.INFO
         )
 
     def get_logger(self, name=__file__):

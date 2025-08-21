@@ -1,0 +1,32 @@
+# Virtual Environment
+/Lib/
+/Include/
+/Scripts/
+/pyvenv.cfg
+Documentportal.egg-info
+
+
+# Python
+*.py[cod]
+__pycache__/
+*.so
+*.dll
+*.lib
+*.pyc
+*.pyd
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# PyTorch specific
+torch/

@@ -1,0 +1,17 @@
+langchain
+langchain-community
+langchain-core
+langchain-groq
+faiss-cpu
+fastapi
+uvicorn
+python-dotenv
+python-multipart
+structlog
+docx2txt
+ipykernel
+streamlit
+pytest
+pypdf
+langchain-google-genai
+-e .
